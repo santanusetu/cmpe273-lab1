@@ -6,7 +6,7 @@ import "math"
 func main() {
 
 	rect := Rectangle{50,100}
-	circ := Circle{5}
+	circ := Circle{4}
 	
 	fmt.Println("Rectangle Perimeter =", getPerimeter(rect))
 	fmt.Println("Circle Perimeter =", getPerimeter(circ))

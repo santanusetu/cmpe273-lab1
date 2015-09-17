@@ -5,11 +5,12 @@ import "math"
 
 func main() {
 
-	rect := Rectangle{20,50}
-	circ := Circle{4}
+	rect := Rectangle{50,100}
+	circ := Circle{5}
 	
 	fmt.Println("Rectangle Perimeter =", getPerimeter(rect))
 	fmt.Println("Circle Perimeter =", getPerimeter(circ))
+
 }
 
 type Shape interface {

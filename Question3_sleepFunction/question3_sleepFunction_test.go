@@ -4,11 +4,11 @@ import "time"
 import "testing"
 
 func TestSleep(t *testing.T) {
-	start := time.Now()
-	Sleep(500)
-	end := time.Now()
+	startTime := time.Now()
+	Sleep(1000)
+	endTime := time.Now()
 
-	if end.Sub(start) < 10 {
-		t.Error("Sleep time finished before 5 second")
+	if endTime.Sub(startTime) < 1000 {
+		t.Error("Sleep time finished before 1 second")
 	}
 }

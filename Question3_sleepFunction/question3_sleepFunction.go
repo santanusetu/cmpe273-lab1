@@ -6,9 +6,9 @@ import (
 	)
 
 func main() {	
-	for i := 0; i < 10; i++ {
-		fmt.Println( "->", i, "<-")
-		Sleep(500)
+	for i := 0; i < 11; i++ {
+		fmt.Println( "->", i , "<-")
+		Sleep(1000)
 	}					
 }
 

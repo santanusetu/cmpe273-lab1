@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	num := 6
+	num := 15
 	fmt.Println(fibonacci(num))
 
 }

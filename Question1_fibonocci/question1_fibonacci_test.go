@@ -18,7 +18,11 @@ func TestFibonacci(t *testing.T) {
 	test(t, 4, 3)
 	test(t, 5, 5)
 	test(t, 6, 8)
+	test(t, 7, 13)
+	test(t, 8, 21)
+	test(t, 9, 34)
 	test(t, 10, 55)
+	test(t, 15, 610)
 
 	fmt.Println(fibonacci(15))
 }

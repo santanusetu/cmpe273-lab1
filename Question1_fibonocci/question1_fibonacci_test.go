@@ -3,10 +3,10 @@ package main
 import "testing"
 import "fmt"
 
-func test(t *testing.T, v int, expected int) {
-	r := fibonacci(v)
-	if r != expected {
-		t.Error("Answer should be ", expected, " but it is now ", r)
+func test(t *testing.T, v int, expectedResult int) {
+	res := fibonacci(v)
+	if res != expectedResult {
+		t.Error("Expected result is ", expectedResult, " - Current result coming as ", res)
 	}
 }
 
